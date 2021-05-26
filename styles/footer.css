@@ -1,0 +1,51 @@
+.footer {
+    clear: both;
+    color: #fff;
+    background-color: #fafafa;
+    padding: 20px 25px;
+}
+
+.footer__menu {
+    display: inline-block;
+}
+.footer__menu__lista {
+    display: inline-block;
+}
+
+.footer__menu__lista li {
+    margin-bottom: 10px;
+}
+
+.footer .footer__menu__link {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer .footer__menu__link:hover {
+    border-bottom: 1px #fff solid;
+}
+
+.footer__lista__socialmedia {
+    float: right;    
+}
+
+.footer__lista__socialmedia a {
+    margin-left: 5px;
+}
+
+.footer__btntopo {
+    clear: both;
+    float: right;
+    margin-top: 10px;
+    color: rgb(20, 1, 1);
+}
+
+.footer .footer__visite {
+    text-align: left;
+    padding: 10px 0;
+    color: rgb(20, 1, 1);
+}
+
+
+

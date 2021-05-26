@@ -1,0 +1,81 @@
+@import './styles/reset.css';
+@import './styles/header.css';
+@import './styles/main.css';
+@import './styles/footer.css';
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #444;
+    background-image: url("./assets/images/fundo.png");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #818592;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+   
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+p {
+    
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 30px;
+}
+
+.inner-section {
+    max-width: 1200px;
+    margin: 25px auto 0 auto;
+    padding:0 30px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.nodisplay {
+     display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.opacity0 {
+    opacity: 0;
+}
+
+button {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px;
+    background-color: #374036;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #899281;
+}

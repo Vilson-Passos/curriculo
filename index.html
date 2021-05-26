@@ -1,0 +1,104 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./style.css" rel="stylesheet" />
+    <title>Currículo Vilson Passos</title>
+</head>
+
+<body onload="load();">
+    <header class="header" role="header">   
+        <section class="header">
+            <h1 class="nome">Vilson Santos Passos</h1>
+            <p class="objetivo">Tech Lead Mobile</p>
+        </section>
+        <nav class="borda">    
+        </nav>
+        
+    </header>
+    <main class="main" role="main">
+            <div class="main__about inner-section">
+                <section class="main__about__about">
+                    <h2>Sobre</h2>
+                    <p>Tech Lead do iPhone pra Sempre nos Apps Itaucard, Credicard e Personnalité</p>
+                    <p>&#127969; Taboão da Serra - SP</p>
+                    <p>&#9993; vilson.passosss@gmail.com</p>
+                    <p>&#128241; (11) 98744-9569</p>
+                </section>
+                <section class="main__foto">
+                    <img class="main__foto__avatar" src="./assets/images/minha_foto.png" alt="Foto">
+                </section>
+            </div>
+            <section class="main__abas inner-section">
+                <a id="bt_aba1" class="main__abas__botao active" href="#">Resumo</a>
+                <a id="bt_aba2" class="main__abas__botao" href="#">Formação</a>
+                <a id="bt_aba3" class="main__abas__botao" href="#">Histórico Profissional</a>
+                <section id="aba1" class="main__abas__abas active">
+                    <li> Vinte anos de experiência no mercado de cartões de crédito e outros meios digitais de pagamentos, sendo os últimos quinze anos atuando na área de tecnologia e no ciclo de vida de desenvolvimento de software em diversas entregas de projetos nesse segmento, em alta plataforma e mobile.​</li>   
+                    <li> Visão voltada para inovações, estratégico, proativo e autoditada, buscando aprendizado contínuo de novas tecnologias, ágil e descomplicado nas entregas de projetos, com avaliações de desempenho diferenciadas.​</li>
+                    <li> Aptidão e facilidade para lidar com pessoas, fomentando engajamento, alta performance, inovação, mudança de mindset colaboração e espirito de equipe.</li>
+                    <li> Construção de parcerias com foco em resultado e otimização de processos na implantação e manutenção de softwares.​</li>
+                    <li> Planejamento estratégico para redução de lead time dos projetos, direcionando times de alta performance para atingimento de metas.​</li>
+                    <li> Conhecimento nas tecnologias relacionadas a Alta Plataforma Mainframe e tecnologias relacionadas a Mobile, como Java, Kotlin, Android Studio, Swift, Eclipse, XML, JSON, GIT, GITLAB, API’s REST, Google Firebase e Firebase Cloud Messaging.</li>
+                </section>
+                <section id="aba2" class="main__abas__abas">
+                        <img src="./assets/images/formacao.png" alt="Foto" style="float:center;width:1150px">
+                </section>
+                <section id="aba3" class="main__abas__abas">
+                        <img src="./assets/images/linha_tempo.png" alt="Foto" style="float:center;width:1150px">
+                </section>
+                
+            </section>
+
+            <section class="main__skills inner-section">
+                <h2>Habilidades</h2>
+                <div class="main__skills__bars bars-left">
+                </div>
+                <div class="main__skills__bars bars-right">
+                </div>                
+            </section>
+
+            <section class="main__formulario inner-section">
+                <h2>Contato</h2>
+                <form>
+                    <label class="form-label" for="name">Nome*</label>
+                    <input class="field field_name" id="name" type="text" name="name" />
+
+                    <label class="form-label" for="subject">Assunto*</label>
+                    <input class="field field_subject"  id="subject" type="text" name="subject" />
+
+                    <label class="form-label" for="email">E-mail*</label>
+                    <input class="field field_email"  id="email" type="email" name="email" />
+                    
+                    <label class="form-label" for="message">Mensagem*</label>
+                    <textarea class="field field_message" id="message" name="message" rows="10"></textarea>
+
+                    <button type="button" onclick="enviar();">Enviar</button>
+                </form>
+                <div class="loading">Enviando. Aguarde...</div>
+            </section>
+            <br /><br /><br />
+        </main>
+    </div>
+    <footer class="footer" role="footer">
+
+        <nav class="footer__lista__socialme dia">
+            <a href="https://br.linkedin.com/in/vilson-passos-78b6a427" target="_blank">
+                <img class="header__logo" src="./assets/images/icon-linkedin.png" alt="Logo LinkedIn">
+            </a>
+        </nav>
+        
+        <a href="#" class="footer__btntopo">Voltar ao Topo</a>
+
+        <p class="footer__visite">Linkedin</p>
+    </footer>
+
+    <script src="./js/load.js"></script>
+    <script src="./js/backtotop.js"></script>
+    <script src="./js/Abas.js"></script>
+    <script src="./js/Skills.js"></script>
+
+</body>
+
+</html>
